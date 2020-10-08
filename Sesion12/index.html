@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Cinematografica</title>
+</head>
+<body bgcolor="#DBC356">
+    <div align="center">
+        <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/02/21/15507630893960.jpg" alt="Esto es una imagen">
+    </div>
+    <div id="Contenedor">
+        <h1 align="center">ENCUESTA DE CINE: NOMINADAS AL OSCAR 2020</h1>
+        <form id="formulario1" name="formulario1" method="POST">
+            <fieldset id="datos_personales">
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre</label> <br>
+                <input type="text" name="nombre" id="nombre"> <br>
+                <label for="apellido">Apellido</label> <br>
+                <input type="text" name="apellido" id="apellido"> <br>
+                <label for="dni">DNI</label> <br>
+                <input type="text" name="dni" id="dni" maxlength="9"> <br>
+                <label for="edad">Edad</label> <br>
+                <input type="text " name="edad" id="edad" size="2"> <br>
+                <label for="sexo">Sexo</label> <br>
+                <select name="sexo" id="sexo">
+                    <option>...</option>
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                </select>
+            </fieldset>
+            <fieldset id="mejor_pelicula">
+                <legend>Mejor Película</legend>
+                <input type="radio" name="pelicula" value="11"> El irlandes <br>
+                <input type="radio" name="pelicula" value="22"> 1971 <br>
+                <input type="radio" name="pelicula" value="33"> Joker <br>
+                <input type="radio" name="pelicula" value="44"> Érase una vez... en Hollywood <br>
+                <input type="radio" name="pelicula" value="44"> Jo Jo Rabbit <br>
+                <input type="radio" name="pelicula" value="44"> Mujercitas <br>
+                <input type="radio" name="pelicula" value="44"> Le Mans 66 <br>
+                <input type="radio" name="pelicula" value="44"> Historia de un matrimonio <br>
+            </fieldset>
+            <fieldset id="pelicula_no_vista">
+                <legend>Selecciona las películas que no hayas visto</legend>
+                <input type="checkbox" name="pelicula"> El irlandes <br>
+                <input type="checkbox" name="pelicula"> 1971 <br>
+                <input type="checkbox" name="pelicula"> Joker <br>
+                <input type="checkbox" name="pelicula"> Érase una vez... en Hollywood <br>
+                <input type="checkbox" name="pelicula"> Jo Jo Rabbit <br>
+                <input type="checkbox" name="pelicula"> Mujercitas <br>
+                <input type="checkbox" name="pelicula"> Le Mans 66 <br>
+                <input type="checkbox" name="pelicula"> Historia de un matrimonio <br>
+            </fieldset>
+            <fieldset id="argumentoGrupo">
+                <legend>Argumento de la película que más te gusto</legend>
+                <textarea name="argumento" id="argumento" cols="50" rows="14"></textarea>
+            </fieldset>
+            <br>
+            <input type="reset" value="Borrar Formulario"> <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    
+    
+</body>
+</html>
