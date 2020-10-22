@@ -1,0 +1,27 @@
+
+main{
+    background-color: yellow;
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: red;
+}
+
+nav{
+    background-color: green;
+    float: left;
+    width: 300px;
+}
+
+article{
+    background-color: grey;
+    float: left;
+    width: 800px;
+}
+
+footer{
+    clear: both;
+    background-color: blue;
+}
