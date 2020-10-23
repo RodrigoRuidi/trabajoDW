@@ -1,0 +1,74 @@
+main{
+    margin: auto;
+    background-color: lightblue;
+}
+
+header{
+    background-color: rgb(86, 145, 165);
+    font-family: arial black;
+    color: yellow;
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid rgb(86, 145, 165);
+}
+
+nav{
+    background-color: black;
+    position: relative;
+    text-align: right;
+}
+
+#barra{
+    padding: 0px;
+    margin: 0px;
+}
+
+#barra li{
+    display: inline;
+}
+
+#barra li a{
+    padding: 10px;
+    color: white;
+}
+
+#capa1{
+    background-color: rgb(86, 145, 165);
+    font-family: arial;
+    color: yellow;
+}
+
+img{
+    width: 150px;
+    clear: both;;
+}
+
+h2{
+    background-color: rgb(86, 145, 165);
+    color: yellow;
+    font-family: Impact;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+    font-family: tahonma;
+    text-align: center;
+    padding: 15px;
+}
+
+
+th{
+    color: red;
+    background-color: lightgreen;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
