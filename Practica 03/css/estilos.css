@@ -1,0 +1,153 @@
+.grid{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    grid-template-rows: 170px 60px 1fr 200px;
+    grid-template-areas: "myheader myheader" "mynav mynav" "myarticle myaside" "myfooter myfooter";
+    background-color: lightseagreen;
+    margin: 0px;
+    font-family: calibri;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    grid-area: myheader;
+}
+
+header a{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    text-decoration: none;
+}
+
+#img1{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+header div{
+    margin: 5px 20px;
+}
+
+header h1{
+    margin: 10px;
+    padding: 60px 170px;
+    text-transform: uppercase;
+}
+
+header h2{
+    margin: -65px 190px;
+}
+
+nav{
+    grid-area: mynav;
+    background-color: black;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px 20px;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 20px 60px;
+    border-right: 1px solid;
+}
+
+nav li a:hover{
+    background-color: dodgerblue;
+}
+
+.imgn{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    margin-left: 10px;
+    float: right;
+}
+
+#img4{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px 20px;
+}
+
+article{
+    grid-area: myarticle;
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+}
+
+article h2{
+    margin: 0px 7px;
+}
+
+article h3{
+    margin: 0px 7px;
+}
+
+article p{
+    margin: 0px 7px;
+}
+
+aside{
+    grid-area: myaside;
+    background-color: aqua;
+}
+
+aside ul{
+    margin-top: -20px;
+}
+
+aside h3{
+    padding: 10px;
+}
+
+#menu, #enlaces{
+    background-color: lightseagreen;
+    margin: 20px;
+}
+
+footer{
+    grid-area: myfooter;
+}
+
+#pie{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+}
+
+#info{
+    display: inline-flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+#info div{
+    padding: 0 70px;
+    margin-left: -40px;
+}
+
+#info div ul{
+    margin-top: -10px;
+}

@@ -1,0 +1,18 @@
+article h2{
+    color: blue;
+}
+
+article table{
+    border: 1px solid black;
+}
+
+article table{
+    border-collapse: collapse;
+}
+
+article table, th, td{
+    border: 1px solid black;
+    font-family: calibri;
+    text-align: center;
+    padding: 10px;
+}

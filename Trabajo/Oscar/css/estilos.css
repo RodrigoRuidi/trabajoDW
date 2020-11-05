@@ -1,0 +1,40 @@
+article fieldset legend{
+    background-color: blue;
+    color: white;
+}
+
+#datos_personales input{
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#datos_personales select{
+    border-radius: 5px;
+}
+
+#capa1{
+    float: left;
+    height: 1000px;
+    background-color: white;
+    
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+#formulario1{
+    background-color: darkcyan;
+    margin: 0 auto;
+}
+
+#botones input{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+
+#formulario1 #botones{
+    text-align: center;
+}

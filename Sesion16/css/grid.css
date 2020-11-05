@@ -1,0 +1,147 @@
+
+.grid{
+    margin: 0px auto;
+    max-width: 1000px;
+    min-width: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr 100px 50px;
+    grid-template-areas: "myhead" "mynav" "mysection" "myaside" "myfooter";
+    color: white;
+}
+
+header{
+    grid-area: myhead;
+    background-color: blueviolet;
+}
+
+nav{
+    grid-area: mynav;
+    background-color: cornflowerblue;
+}
+
+article{
+    grid-area: mysection;
+    background-color: indigo;
+}
+
+aside{
+    grid-area: myaside;
+    background-color: darkmagenta;
+}
+
+footer{
+    grid-area: myfooter;
+    background-color: darkorchid;
+}
+
+@media(min-width: 600px) and (max-width: 1000px){
+    .grid{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 150px 100px 1fr 100px;
+        grid-template-areas: "myhead myhead" "mynav mynav" "mysection myaside" "myfooter myfooter"
+    }  
+}
+
+@media(min-width:1001px){
+    .grid{
+        margin: 0px auto;
+        max-width: 1000px;
+        min-width: 100vh;
+        display: grid;
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: 200px 1fr 100px;
+        grid-template-areas: "myhead myhead myhead" "mynav mysection myaside" "myfooter myfooter myfooter";
+    }
+}
+
+/* .grid{
+    margin: 0px auto;
+    max-width: 1000px;
+    min-width: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 200px 100px;
+    grid-template-areas: "head head head" "nav section aside" "footer footer footer";
+    color: white;
+}
+
+header{
+    grid-area: head;
+    background-color: blueviolet;
+}
+
+nav{
+    grid-area: nav;
+    background-color: cornflowerblue;
+}
+
+article{
+    grid-area: section;
+    background-color: indigo;
+}
+
+aside{
+    grid-area: aside;
+    background-color: darkmagenta;
+}
+
+footer{
+    grid-area: footer;
+    background-color: darkorchid;
+} */
+
+
+
+
+
+
+
+/* .grid{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: "head head head" "menu contenedor enlace" "foot foot foot";
+
+}
+
+.a{
+    grid-area: head;
+    background-color: blue;
+}
+
+.b{
+    grid-area: menu;
+    background-color: red;
+}
+
+.c{
+    grid-area: contenedor;
+    background-color: green;
+}
+
+.d{
+    grid-area: foot;
+    background-color: orangered;
+}
+
+.e{
+    grid-area: enlace;
+} */
+
+
+/* .grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 2fr 1fr;
+}
+
+.a, .b, .c, .d{
+    border: 1px solid;
+} */
+
+/* .grid{
+    display: grid;
+    grid-template-columns: 50px 300px;
+    grid-template-rows: 200px 75px;
+} */

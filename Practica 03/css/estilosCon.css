@@ -1,0 +1,43 @@
+#contenedorF{
+    display: inline-flex;
+}
+
+article{
+    font-family: calibri;
+    font-size: 20px;
+}
+
+article form{
+    background-color: skyblue ;
+    padding: 30px;
+    width: 600px;
+}
+
+article label{
+    padding: 0px;
+    display: block;
+    width: 60px;
+}
+
+#nombre, #email, #nombre2, #mensaje{
+    width: 450px;
+    padding: 5px;
+    margin-left: 120px;
+    background-color: slateblue;
+    position: relative;
+    top: -30px;
+}
+
+#botones input{
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#informacion{
+    margin-left: 100px;
+}

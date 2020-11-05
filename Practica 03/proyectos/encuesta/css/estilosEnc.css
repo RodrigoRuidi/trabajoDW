@@ -1,0 +1,73 @@
+
+main{
+    font-size: 15px;
+}
+
+article{
+    display: flex;
+}
+
+article fieldset legend{
+    background-color: blue;
+    color: white;
+}
+
+#formulario1{
+    background-color: darkcyan;
+    width: 450px;
+}
+
+h1{
+    position: relative;
+    left: 340px;
+    color: blue;
+}
+
+#datos_personales{
+    padding: 20px;
+}
+
+#datos_personales label{
+    color: white;
+    display: block;
+}
+
+#datos_personales input{
+    margin: 5px;
+    border-radius: 5px;
+    width: 250px;
+    padding: 5px;
+    margin-left: 100px;
+    position: relative;
+    top: -30px;
+}
+
+#datos_personales select{
+    border-radius: 5px;
+    width: 265px;
+    padding: 5px;
+    margin-left: 100px;
+    position: relative;
+    top: -30px;
+}
+
+#capa1{
+    
+    height: 1020px;
+    background-color: white;
+}
+
+#mejor_pelicula, #pelicula_no_vista{
+    color: white;
+}
+
+#formulario1 > input{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    left: 120px;
+    top: -10px;
+}

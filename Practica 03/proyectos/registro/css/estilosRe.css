@@ -1,0 +1,30 @@
+
+h1, h2{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    position: relative;
+    left: 42%;
+}
+
+a{
+    text-decoration: none;
+}
+
+form{
+    position: relative;
+    left: 40%;
+}
+
+#nombre, #apellido, #email, #contra{
+    margin: 10px;
+}
+
+#enviar{
+    text-align: center;
+    position: relative;
+    left: 9%;
+    margin: 10px;
+}
