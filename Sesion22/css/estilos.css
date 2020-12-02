@@ -1,0 +1,9 @@
+.datosentrada{
+    width: 40%;
+    margin: auto;
+}
+
+input{
+    margin-top: 10px;
+    display: block;
+}

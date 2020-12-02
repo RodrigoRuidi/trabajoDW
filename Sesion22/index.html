@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+    <div class="datosentrada">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+
+        <input type="button" value="Guardar datos" onclick="guardarD()">
+        
+        <p id="datos">Pulsa para ver tu nombre y tu password.</p>
+
+        <input type="button" value="Recuperar datos" onclick="recuperarD()">
+        <input type="button" value="Borrar datos" onclick="borrarD()">
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
