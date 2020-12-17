@@ -1,3 +1,7 @@
-#contenedor{
+.row{
     background-color: #b0b5de;
+}
+
+.row div{
+    border: 1px solid black;
 }

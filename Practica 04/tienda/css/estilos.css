@@ -1,0 +1,17 @@
+#contenedor{
+    border: 1px solid;
+    border-color: #007BFF;
+}
+
+.card-header{
+    color: white;
+    background-color: #007BFF;
+}
+
+.card-deck{
+    padding: 2%;
+}
+
+#asd{
+    border: 1px solid;
+}
